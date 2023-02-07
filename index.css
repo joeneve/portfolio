@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #212121;
+    --secondary-color: #f3f3f3;
+    --secondary-color: #77fcfd;
+}
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid white;
+    padding: 20px 0px 19px 0px;
+    position: sticky;
+    top: 0px;
+    background-color: #212121c9;
+    backdrop-filter: saturate(280%) blur(25px);
+  }
