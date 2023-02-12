@@ -1,25 +1,142 @@
 :root {
     --primary-color: #212121;
     --secondary-color: #f3f3f3;
-    --secondary-color: #77fcfd;
+    --third-color: #77fcfd;
 }
+
+@font-face {
+    font-family: poppins-extralight;
+    src: url("fonts/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: poppins-light;
+    src: url("fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: poppins-medium;
+    src: url("fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: poppins-semibold;
+    src: url("fonts/Poppins-SemiBold.ttf");
+}
+
+/* generals */
 
 * {
     margin: 0px;
     box-sizing: border-box;
+    color: var(--secondary-color);
+    font-family: poppins-medium, sans-serif;
 }
 
 body {
     background-color: var(--primary-color);
 }
 
+a {
+    text-decoration: none;
+}
+
+.nav-wrap, .about-wrap, .projects-wrap, .footer-wrap, .contact-wrap {
+    width: 1440px;
+}
+
+footer, .contact, .projects, .about {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* mobile nav */
+.mobile-nav {
+    display: none;
+}
+
 nav {
     display: flex;
-    justify-content: space-evenly;
-    border-bottom: 1px solid white;
-    padding: 20px 0px 19px 0px;
+    justify-content: center;
     position: sticky;
     top: 0px;
     background-color: #212121c9;
     backdrop-filter: saturate(280%) blur(25px);
-  }
+    font-size: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.nav-wrap {
+    border-bottom: 1px solid white;
+    padding: 18px 10px 17px 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav img {
+    width: 100px;
+}
+
+.desktop-nav {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.desktop-main-nav-wrap {
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+}
+
+.desktop-main-nav-wrap li {
+    margin: 0px 20px;
+    letter-spacing: 2px;
+}
+
+.desktop-main-nav-wrap li a {
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.desktop-main-nav-wrap li a:hover {
+    color: #77fcfd;
+    background-color: #343636;
+}
+
+/* projects */
+
+.html, .css, .js, .jquery {
+    font-size: 15px;
+    font-family: poppins-light;
+    color: black;
+    padding: 2px 5px;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+.html {
+    background-color: #ffd8d9;
+    border: 2px solid #f82f2f;
+}
+
+.css {
+    background-color: #d8eaff;
+    border: 2px solid #2f65f8;
+}
+
+.js {
+    background-color: #fffed8;
+    border: 2px solid #f8f411;
+}
+
+.jquery {
+    background-color: #d9ffd8;
+    border: 2px solid #51ad35;
+}
