@@ -1293,10 +1293,16 @@ footer {
 
     .mobile-nav-bottom {
         display: none;
+        position: relative;
+        top: 6px;
     }
 
     .mobile-main-nav-wrap {
-        padding: 0px;
+        padding: 20px 0px;
+        position: absolute;
+        width: 100%;
+        border-bottom: 1px solid white;
+        background-color: #212121;
     }
 
     .mobile-main-nav-wrap li {
