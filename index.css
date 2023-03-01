@@ -413,6 +413,7 @@ nav img {
     opacity: 0;
     z-index: -3;
     height: 0px;
+    pointer-events: none; 
 }
 
 .active {
