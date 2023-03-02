@@ -97,7 +97,7 @@ nav {
     background-color: #212121c9;
     backdrop-filter: saturate(280%) blur(25px);
     font-size: 20px;
-    z-index: 3;
+    z-index: 4;
 }
 
 nav ul li {
@@ -690,7 +690,7 @@ footer {
         background-color: #212121c9;
         backdrop-filter: saturate(280%) blur(25px);
         font-size: 20px;
-        z-index: 3;
+        z-index: 4;
     }
     
     nav ul li {
@@ -1319,7 +1319,7 @@ footer {
         background-color: #212121c9;
         backdrop-filter: saturate(280%) blur(25px);
         font-size: 20px;
-        z-index: 3;
+        z-index: 4;
     }
     
     nav ul li {
@@ -1948,7 +1948,7 @@ footer {
         background-color: #212121c9;
         backdrop-filter: saturate(280%) blur(25px);
         font-size: 20px;
-        z-index: 3;
+        z-index: 4;
     }
     
     nav ul li {
@@ -2068,7 +2068,7 @@ footer {
     
     /* homepage about block */
     .homepage-about {    
-        padding: 100px 0px;
+        padding: 50px 0px;
     }
     
     .homepage-about-blocks {
@@ -2079,7 +2079,7 @@ footer {
     
     .homepage-about-block {
         max-width: 300px;
-        margin: 0px 10px;
+        margin: 10px 0px;
     }
     
     .about-description {
@@ -2088,7 +2088,7 @@ footer {
     
     .about-description h3 {
         font-size: 20px;
-        margin: 10px 0px;
+        margin: 0px 0px;
     }
     
     .about-description p {
@@ -2296,7 +2296,7 @@ footer {
     /* projects */
     
     .projects-wrap {
-        padding: 50px 0px;
+        padding: 20px 0px;
     }
 
     .project-hero {
@@ -2402,7 +2402,7 @@ footer {
     
     /* contact */
     .contact-wrap {
-        padding: 50px 0px;
+        padding: 20px 0px;
         text-align: center;
     }
 
