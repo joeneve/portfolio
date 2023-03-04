@@ -454,7 +454,7 @@ nav img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 400px;
+    min-height: 400px;
 }
 
 .project-block:hover {
@@ -1045,7 +1045,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 400px;
+        min-height: 400px;
     }
     
     .project-block:hover {
@@ -1678,7 +1678,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 400px;
+        min-height: 400px;
     }
     
     .project-block:hover {
@@ -1927,11 +1927,11 @@ footer {
     }
 
     .mobile-main-nav-wrap {
-        padding: 0px;
+        padding: 30px 0px;
     }
 
     .mobile-main-nav-wrap li {
-        margin: 15px 0px;
+        margin: 20px 0px;
     }
 
     nav {
@@ -2316,7 +2316,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 400px;
+        min-height: 400px;
     }
     
     .project-block:hover {
