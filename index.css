@@ -1,3 +1,5 @@
+/* main css */
+
 :root {
     --primary-color: #212121;
     --secondary-color: #f3f3f3;
@@ -49,6 +51,7 @@ a:hover {
     cursor: pointer;
 }
 
+/* wrappings */
 .nav-wrap, .about-wrap, .projects-wrap, .footer-wrap, .contact-wrap, .homepage-wrap {
     width: 1440px;
     padding: 0px 10px;
