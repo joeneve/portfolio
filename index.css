@@ -642,6 +642,10 @@ footer {
     width: 100%;
 }
 
+span a {
+    text-decoration: underline;
+}
+
 @media (max-width: 1110px) {
     .nav-wrap, .about-wrap, .projects-wrap, .footer-wrap, .contact-wrap, .homepage-wrap {
         width: 1440px;
@@ -736,6 +740,14 @@ footer {
     .desktop-main-nav-wrap li a:hover {
         color: #77fcfd;
         background-color: #343636;
+    }
+
+    .icons-wrap img:hover {
+        cursor: pointer;
+    }
+
+    .x, .hamb, .mobile-logo-nav img:hover {
+        cursor: pointer;
     }
     
     /* hero text */
@@ -1308,6 +1320,15 @@ footer {
 
     .mobile-main-nav-wrap li {
         margin: 10px 0px;
+        cursor: pointer;
+    }
+
+    .icons-wrap img:hover {
+        cursor: pointer;
+    }
+
+    .x, .hamb, .mobile-logo-nav img:hover {
+        cursor: pointer;
     }
 
     nav {
@@ -1865,6 +1886,7 @@ footer {
     .social-icons-wrap img {
         width: 100%;
     }
+    
 }
 
 @media (max-width: 768px) {
@@ -1991,6 +2013,14 @@ footer {
     .desktop-main-nav-wrap li a:hover {
         color: #77fcfd;
         background-color: #343636;
+    }
+
+    .icons-wrap img:hover {
+        cursor: pointer;
+    }
+
+    .x, .hamb, .mobile-logo-nav img:hover {
+        cursor: pointer;
     }
     
     /* hero text */
