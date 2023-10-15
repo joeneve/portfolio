@@ -491,7 +491,7 @@ nav img {
     margin: 3px
 }
 
-.html, .css, .js, .jquery {
+.html, .css, .js, .jquery, .react {
     font-size: var(--detail-size);
     font-family: poppins-extralight;
     color: black;
@@ -514,6 +514,10 @@ nav img {
 .jquery {
     background-color: #ebffea;
     border: 2px solid #51ad35;
+}
+.react {
+    background-color: #b9ddff;
+    border: 2px solid #2da7ff;
 }
 
 .project-title {
